@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/jsthomason/LearningGo/StringUtil"
+)
 
 func main() {
-    fmt.Printf("hello, world\n")
+	fmt.Printf(StringUtil.Reverse("\n!oG ,olleH"))
 }
 
